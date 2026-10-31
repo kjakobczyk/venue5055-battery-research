@@ -1,0 +1,52 @@
+[
+  {
+    "tag": "@UII",
+    "offset": 16,
+    "size": 96,
+    "compressed_size": 64,
+    "original_size": 64,
+    "checksum_valid": true,
+    "file": "UII.bin",
+    "sha256": "0ee03c0b32119065fdb691f27606284109cb72b7b99e42e4108da83eecdf90ef"
+  },
+  {
+    "tag": "@W32",
+    "offset": 112,
+    "size": 8432,
+    "compressed_size": 8410,
+    "original_size": 14032,
+    "checksum_valid": true,
+    "file": "W32.bin",
+    "sha256": "5d968e414555db4ea83cd89cc1ddae75ddcd7d9d5bfc189e81ce1f6b0710825b"
+  },
+  {
+    "tag": "@W64",
+    "offset": 8544,
+    "size": 9632,
+    "compressed_size": 9601,
+    "original_size": 17616,
+    "checksum_valid": true,
+    "file": "W64.bin",
+    "sha256": "42579a759f3f95f20a2c51d5ac2047a2662a2675b3fb9f46c1ed7f23393a0f00"
+  },
+  {
+    "tag": "@R00",
+    "offset": 18176,
+    "size": 3027360,
+    "compressed_size": 3027333,
+    "original_size": 6886400,
+    "checksum_valid": true,
+    "file": "R00.bin",
+    "sha256": "660f6f54f4dc0fe45a9ee184dbe5d624b88c2c9d75317fbef9b13a668c5c660a"
+  },
+  {
+    "tag": "@EC0",
+    "offset": 3045536,
+    "size": 40272,
+    "compressed_size": 40241,
+    "original_size": 131072,
+    "checksum_valid": true,
+    "file": "EC0.bin",
+    "sha256": "21e4efa3f1608539e47e5a8e1511c8f9cd0e3ac4703185555c85363135ab3bd8"
+  }
+]

@@ -1,0 +1,286 @@
+{
+  "source": "Dell Venue 10 Pro 5055 - 14238-1 (BDV)(.CAD).cad",
+  "sha256": "bfd0533a997f8d49f2657e6b1f69e917e08b5017c459151306fd4aca2cb66460",
+  "verified_routes": {
+    "PU4401": {
+      "11": "FG_I2C_SCL",
+      "10": "FG_I2C_SDA"
+    },
+    "PR4406": {
+      "1": "FG_I2C_SCL",
+      "2": "I2C_0_SCL_EC"
+    },
+    "PR4405": {
+      "1": "FG_I2C_SDA",
+      "2": "I2C_0_SDA_EC"
+    },
+    "R4106": {
+      "1": "I2C_0_SCL_EC",
+      "2": "I2C_0_SCL_EC_1"
+    },
+    "R4107": {
+      "1": "I2C_0_SDA_EC",
+      "2": "I2C_0_SDA_EC_1"
+    },
+    "R4111": {
+      "1": "I2C_0_SCL",
+      "2": "I2C_0_SCL_EC_2"
+    },
+    "R4112": {
+      "1": "I2C_0_SDA",
+      "2": "I2C_0_SDA_EC_2"
+    },
+    "R4122": {
+      "1": "I2C_0_SCL",
+      "2": "I2C_0_SCL_EC"
+    },
+    "R4123": {
+      "1": "I2C_0_SDA",
+      "2": "I2C_0_SDA_EC"
+    },
+    "U4101": {
+      "B8": "I2C_0_SCL_EC_1",
+      "C8": "I2C_0_SDA_EC_1",
+      "E2": "I2C_0_SCL_EC_2",
+      "F2": "I2C_0_SDA_EC_2"
+    },
+    "CPU1": {
+      "AD12": "I2C_0_SCL",
+      "AE12": "I2C_0_SDA"
+    }
+  },
+  "components": {
+    "PU4401": {
+      "PLACE": [
+        "4005.000",
+        "1205.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "270.00"
+      ],
+      "SHAPE": [
+        "DFN12J2540-G260255H40",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device1323"
+      ],
+      "value": "BQ27510DRZR-G3-GP"
+    },
+    "PR4406": {
+      "PLACE": [
+        "3840.000",
+        "1143.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "270.00"
+      ],
+      "SHAPE": [
+        "0R0201-PAD",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device1065"
+      ],
+      "value": "0R0201-PAD-GP"
+    },
+    "PR4405": {
+      "PLACE": [
+        "3839.000",
+        "1185.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "270.00"
+      ],
+      "SHAPE": [
+        "0R0201-PAD",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device1066"
+      ],
+      "value": "0R0201-PAD-GP"
+    },
+    "R4106": {
+      "PLACE": [
+        "1219.000",
+        "1294.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "180.00"
+      ],
+      "SHAPE": [
+        "0R0201-PAD",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device980"
+      ],
+      "value": "0R0201-PAD-GP"
+    },
+    "R4107": {
+      "PLACE": [
+        "1145.000",
+        "1270.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "90.00"
+      ],
+      "SHAPE": [
+        "0R0201-PAD",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device979"
+      ],
+      "value": "0R0201-PAD-GP"
+    },
+    "R4111": {
+      "PLACE": [
+        "1564.000",
+        "1494.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "270.00"
+      ],
+      "SHAPE": [
+        "0R0201-PAD",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device978"
+      ],
+      "value": "0R0201-PAD-GP"
+    },
+    "R4112": {
+      "PLACE": [
+        "1564.000",
+        "1514.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "270.00"
+      ],
+      "SHAPE": [
+        "0R0201-PAD",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device977"
+      ],
+      "value": "0R0201-PAD-GP"
+    },
+    "R4122": {
+      "PLACE": [
+        "1239.000",
+        "1229.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "180.00"
+      ],
+      "SHAPE": [
+        "R0201H12",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device405"
+      ],
+      "value": "0R1J-GP"
+    },
+    "R4123": {
+      "PLACE": [
+        "1174.000",
+        "1229.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "180.00"
+      ],
+      "SHAPE": [
+        "R0201H12",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device404"
+      ],
+      "value": "0R1J-GP"
+    },
+    "U4101": {
+      "PLACE": [
+        "1344.000",
+        "1449.000"
+      ],
+      "LAYER": [
+        "TOP"
+      ],
+      "ROTATION": [
+        "180.00"
+      ],
+      "SHAPE": [
+        "BGA64G5-1H40",
+        "0",
+        "0"
+      ],
+      "DEVICE": [
+        "Device78"
+      ],
+      "value": "NPCE948LA0BX-GP"
+    },
+    "CPU1": {
+      "PLACE": [
+        "5355.120",
+        "1735.040"
+      ],
+      "LAYER": [
+        "BOTTOM"
+      ],
+      "ROTATION": [
+        "0.00"
+      ],
+      "SHAPE": [
+        "BGA592Z17H46",
+        "MIRRORY",
+        "FLIP"
+      ],
+      "DEVICE": [
+        "Device912"
+      ],
+      "value": "VALLEYVIEW-T-2-GP"
+    }
+  },
+  "limitation": "CAD connectivity does not establish actual population of optional links in the physical tablet."
+}

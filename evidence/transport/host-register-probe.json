@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-31T16:36:21.256947+00:00",
+  "method": "one-byte selector only +18-byte read; no payload writes",
+  "results": [
+    {
+      "command": "0xf1",
+      "ioctl_result": 2,
+      "response": "1000000200000000000000000000000000c9",
+      "crc_valid": true
+    },
+    {
+      "command": "0xf2",
+      "ioctl_result": 2,
+      "response": "100000000000000000000000000000000079",
+      "crc_valid": true
+    },
+    {
+      "command": "0xf3",
+      "ioctl_result": 2,
+      "response": "1000000000000000000000000000000000af",
+      "crc_valid": true
+    }
+  ]
+}

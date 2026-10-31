@@ -1,0 +1,32 @@
+{
+  "source_page": "https://www.gadget-manual.com/bios/",
+  "archive_url": "https://drive.google.com/file/d/1_Thq3xour6EtN9enQqgN-tUQhGcgbQY5/view",
+  "reference_not_local_dump": true,
+  "archive_sha256": "9c0d97a1fec7c29b9a388a049eda17dc20e76a92a637f4aeee6c9880daa75bd6",
+  "rom_sha256": "6f894405289918d5a18107378c4d76732bc8c0571f716922d312042a87a63ed7",
+  "rom_size": 8388608,
+  "local_ec_firmware_version_verified": false,
+  "role": "Early exploratory reference only; not an authenticated local dump or a source of final live-access identity",
+  "modules": {
+    "FotaECUpdate": {
+      "source": "$STUDY_ROOT/ec-firmware/reference/Dell Venue 10 Pro 5055 Silverton MB 14238-1 WX4XD/W25Q64F.BIN.dump/2 BIOS region/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/214 FotaECUpdate/1 Compressed section/0 PE32 image section/body.bin",
+      "sha256": "0ca26fd0563dd5e295e0bb06949337362edbc6c48fedd7a08d5f6c3d44ee7cc9",
+      "size": 10880
+    },
+    "I2cKbcDriver": {
+      "source": "$STUDY_ROOT/ec-firmware/reference/Dell Venue 10 Pro 5055 Silverton MB 14238-1 WX4XD/W25Q64F.BIN.dump/2 BIOS region/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/90 I2cKbcDriver/1 Compressed section/0 PE32 image section/body.bin",
+      "sha256": "5cbbf4c6a5dc92f9c0aa0014fe5c9488547c1189923e943f0bedfc3821b45b13",
+      "size": 3616
+    },
+    "OememSmiBin": {
+      "source": "$STUDY_ROOT/ec-firmware/reference/Dell Venue 10 Pro 5055 Silverton MB 14238-1 WX4XD/W25Q64F.BIN.dump/2 BIOS region/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/2 OememSmiBin/1 Compressed section/0 PE32 image section/body.bin",
+      "sha256": "96070dec0e2a0f5bf13bf671a06e93a4b1ae7b396c4a1cfd3e5a7b5120853899",
+      "size": 42336
+    },
+    "OememDxeBin": {
+      "source": "$STUDY_ROOT/ec-firmware/reference/Dell Venue 10 Pro 5055 Silverton MB 14238-1 WX4XD/W25Q64F.BIN.dump/2 BIOS region/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/1 OememDxeBin/1 Compressed section/0 PE32 image section/body.bin",
+      "sha256": "1010f306f6332ea5c2529f80cab5b9073b2c747518e309244e633bb09925aec1",
+      "size": 19840
+    }
+  }
+}

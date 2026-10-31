@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-10-31T15:40:56.617972+00:00",
+  "kernel": "7.3.0-9-generic",
+  "raw_stdout": "command=0xa2 raw=108900c4ff5517a4106400c4ff4e00bc0b9e length=16 crc_received=0x9e crc_expected=0x9e\nstatus=0x0089 current_raw=65476 remaining_mAh=5973 voltage_mV=4260\ncommand=0xa3 raw=100060e8215517740e000031000000000055 length=16 crc_received=0x55 crc_expected=0x55\npower_unit_raw=0x6000 design_capacity_mAh=8680 full_capacity_mAh=5973 design_voltage_mV=3700 cycles=49 serial_raw=0\n",
+  "raw_stderr": "",
+  "exit_code": 0,
+  "sysfs": {
+    "DEVTYPE": "power_supply",
+    "POWER_SUPPLY_NAME": "BAT0",
+    "POWER_SUPPLY_TYPE": "Battery",
+    "POWER_SUPPLY_STATUS": "Not charging",
+    "POWER_SUPPLY_PRESENT": "1",
+    "POWER_SUPPLY_TECHNOLOGY": "Li-ion",
+    "POWER_SUPPLY_CYCLE_COUNT": "49",
+    "POWER_SUPPLY_VOLTAGE_MIN_DESIGN": "3700000",
+    "POWER_SUPPLY_VOLTAGE_NOW": "5973000",
+    "POWER_SUPPLY_CURRENT_NOW": "63000",
+    "POWER_SUPPLY_CHARGE_FULL_DESIGN": "8680000",
+    "POWER_SUPPLY_CHARGE_FULL": "3459000",
+    "POWER_SUPPLY_CHARGE_NOW": "5973000",
+    "POWER_SUPPLY_CAPACITY": "173",
+    "POWER_SUPPLY_CAPACITY_LEVEL": "Normal",
+    "POWER_SUPPLY_MODEL_NAME": "DELL 0WF2842I",
+    "POWER_SUPPLY_MANUFACTURER": "LGC-LGC3.95"
+  },
+  "ec": {
+    "transport": "EC proxy; direct BQ27510 not accessed",
+    "ec_address": "0x10",
+    "adapter": "/dev/i2c-0",
+    "crc_verified": true,
+    "raw_blocks": {
+      "0xa2": "108900c4ff5517a4106400c4ff4e00bc0b9e",
+      "0xa3": "100060e8215517740e000031000000000055"
+    },
+    "status_hex": "0x89",
+    "current_signed_mA": -60,
+    "remaining_mAh": 5973,
+    "voltage_mV": 4260,
+    "design_mAh": 8680,
+    "full_mAh": 5973,
+    "design_voltage_mV": 3700,
+    "cycles": 49,
+    "health_percent": 68.81,
+    "wear_percent": 31.19,
+    "nominal_full_Wh": 22.1
+  }
+}

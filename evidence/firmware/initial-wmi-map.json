@@ -1,0 +1,76 @@
+[
+  {
+    "eax": "0x9630",
+    "ebx": "0x0310",
+    "operation": "read EC A2/A3 battery blocks",
+    "status": "understood; no direct BQ access"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0611",
+    "operation": "RDBL(ECX & 0xff,16)",
+    "status": "limited by RDBL switch; not arbitrary I2C forwarding"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0711",
+    "operation": "WRBL(ECX & 0xff,16-byte buffer)",
+    "status": "writes; not executed; WRBL only handles 0x60/0x61"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0110",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "5a aa",
+    "status": "semantics unknown; not executed"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0011",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "e7 80",
+    "status": "semantics unknown; not executed"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0111",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "e7 81",
+    "status": "semantics unknown; not executed"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0210",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "c9 80",
+    "status": "semantics unknown; not executed"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0211",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "5b 80",
+    "status": "semantics unknown; not executed"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0311",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "5b 81",
+    "status": "semantics unknown; not executed"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0411",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "0b 01 xx yy",
+    "status": "semantics unknown; not executed"
+  },
+  {
+    "eax": "0x9630",
+    "ebx": "0x0511",
+    "operation": "WRBL(0x61,16 bytes)",
+    "payload_prefix": "0b 00",
+    "status": "semantics unknown; not executed"
+  }
+]

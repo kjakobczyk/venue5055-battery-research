@@ -1,0 +1,7 @@
+{
+  "source": "voltage-bridge-test-20261031-163819.json",
+  "correction": "SMBus word data starts at EC register 0x1c, within F1, not at 0x20/F2",
+  "status": "0x80",
+  "voltage_mV": 4244,
+  "success": true
+}

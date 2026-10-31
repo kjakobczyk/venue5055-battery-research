@@ -1,0 +1,17 @@
+{
+  "original_sha256": "ec4d391774c569d9ba0ec415ecd1d13852402e1ae0465a780de4aa2e2c262fbe",
+  "patched_sha256": "e92aa9de72f7944e00ba4252899a66dc010280884e95ffb5d6a38f2fea16ea1a",
+  "length": 76670,
+  "changed_offsets": [
+    "0x9",
+    "0x18",
+    "0x11e40",
+    "0x11e41",
+    "0x11e42",
+    "0x11e43"
+  ],
+  "instruction_offset": "0x11e3f",
+  "old_oem_revision": 3,
+  "new_oem_revision": 4,
+  "checksum_valid": true
+}

@@ -1,0 +1,2908 @@
+{
+  "timestamp": "2026-10-31T17:04:11.128802+00:00",
+  "scope": "extended documented configuration backup; see block list; not a complete firmware or reserved-memory dump",
+  "events": [
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "100000020000000000000000009410000065"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "100000020000000000000000009410000065"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf2",
+      "raw": "100000000000000000000000000000000079"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf3",
+      "raw": "1000000000000000000000000001000000b9"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xa2",
+      "raw": "108900beff55178f106400beff4e00c30b72"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xa3",
+      "raw": "100060e8215517740e000031000000000055"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "100000020000000000000000009410000065"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x0",
+      "packet": "65101b0000000000000000000000000000003f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x0",
+      "packet": "65101c00000000000000000000000000000031"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1d",
+      "value": "0x0",
+      "packet": "65101d00000000000000000000000000000033"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000000aa000000000003"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x8",
+      "packet": "6510180800000000000000000000000000008a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa000000000089"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa000000000089"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x0",
+      "packet": "65101b0000000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa000000000089"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa008b020000e4"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa008b020000e4"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e8b020000e0"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x61",
+      "packet": "65101b610000000000000000000000000000cb"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x7",
+      "packet": "6510180700000000000000000000000000003b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x61",
+      "packet": "65101b610000000000000000000000000000cb"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x0",
+      "packet": "65101c00000000000000000000000000000031"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x6",
+      "packet": "6510180600000000000000000000000000008e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x2",
+      "packet": "65101c0200000000000000000000000000005c"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1d",
+      "value": "0x0",
+      "packet": "65101d00000000000000000000000000000033"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e02000000a1"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x8",
+      "packet": "6510180800000000000000000000000000008a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e02000000a1"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e02000000a1"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e02000000a1"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000100080aa3e0200000024"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e02000000a1"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x40",
+      "packet": "65101b400000000000000000000000000000bc"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa40020000006d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa400258000018"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa400258000018"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x42",
+      "packet": "65101b420000000000000000000000000000d1"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4202580000dc"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa42020200007f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa42020200007f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x44",
+      "packet": "65101b44000000000000000000000000000066"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa440202000034"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4426020000a2"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4426020000a2"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x46",
+      "packet": "65101b4600000000000000000000000000000b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa462602000066"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46bc020000ac"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46bc020000ac"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x48",
+      "packet": "65101b4800000000000000000000000000000f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa48bc020000fe"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa48028a0000f8"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa48028a0000f8"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4a",
+      "packet": "65101b4a000000000000000000000000000062"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a028a00003c"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a000000009c"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a000000009c"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4c",
+      "packet": "65101b4c0000000000000000000000000000d5"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4e",
+      "packet": "65101b4e0000000000000000000000000000b8"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x50",
+      "packet": "65101b500000000000000000000000000000dd"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x52",
+      "packet": "65101b520000000000000000000000000000b0"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x54",
+      "packet": "65101b54000000000000000000000000000007"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x56",
+      "packet": "65101b5600000000000000000000000000006a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x58",
+      "packet": "65101b5800000000000000000000000000006e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5a",
+      "packet": "65101b5a000000000000000000000000000003"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5c",
+      "packet": "65101b5c0000000000000000000000000000b4"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5e",
+      "packet": "65101b5e0000000000000000000000000000d9"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x60",
+      "packet": "65101b6000000000000000000000000000007e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa600000000025"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x7",
+      "packet": "6510180700000000000000000000000000003b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa602f00000039"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa602f00000039"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x20",
+      "packet": "65101c200000000000000000000000000000f3"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1d",
+      "value": "0x0",
+      "packet": "65101d00000000000000000000000000000033"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e2000000043"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x8",
+      "packet": "6510180800000000000000000000000000008a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e2000000043"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e2000000043"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e2000000043"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e2000000043"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e2000000043"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x40",
+      "packet": "65101b400000000000000000000000000000bc"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa40200000008f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa400000000041"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa400000000041"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x42",
+      "packet": "65101b420000000000000000000000000000d1"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa420000000085"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4201f4000054"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4201f4000054"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x44",
+      "packet": "65101b44000000000000000000000000000066"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4401f400001f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4400320000f9"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4400320000f9"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x46",
+      "packet": "65101b4600000000000000000000000000000b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46003200003d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46000000000a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46000000000a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x48",
+      "packet": "65101b4800000000000000000000000000000f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa480000000058"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa480000000058"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa480000000058"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4a",
+      "packet": "65101b4a000000000000000000000000000062"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a000000009c"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a000000009c"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a000000009c"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4c",
+      "packet": "65101b4c0000000000000000000000000000d5"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4e",
+      "packet": "65101b4e0000000000000000000000000000b8"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x50",
+      "packet": "65101b500000000000000000000000000000dd"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x52",
+      "packet": "65101b520000000000000000000000000000b0"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x54",
+      "packet": "65101b54000000000000000000000000000007"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x56",
+      "packet": "65101b5600000000000000000000000000006a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x58",
+      "packet": "65101b5800000000000000000000000000006e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5a",
+      "packet": "65101b5a000000000000000000000000000003"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5c",
+      "packet": "65101b5c0000000000000000000000000000b4"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5e",
+      "packet": "65101b5e0000000000000000000000000000d9"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x60",
+      "packet": "65101b6000000000000000000000000000007e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa600000000025"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x7",
+      "packet": "6510180700000000000000000000000000003b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa60d800000058"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa60d800000058"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x22",
+      "packet": "65101c2200000000000000000000000000009e"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1d",
+      "value": "0x0",
+      "packet": "65101d00000000000000000000000000000033"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e220000006f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x8",
+      "packet": "6510180800000000000000000000000000008a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e220000006f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e220000006f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e220000006f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e220000006f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e220000006f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x40",
+      "packet": "65101b400000000000000000000000000000bc"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4022000000a3"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4000c800009d"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4000c800009d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x42",
+      "packet": "65101b420000000000000000000000000000d1"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4200c8000059"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4210fe0000a2"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4210fe0000a2"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x44",
+      "packet": "65101b44000000000000000000000000000066"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4410fe0000e9"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4400320000f9"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4400320000f9"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x46",
+      "packet": "65101b4600000000000000000000000000000b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46003200003d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46000000000a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa46000000000a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x48",
+      "packet": "65101b4800000000000000000000000000000f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa480000000058"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa480258000001"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa480258000001"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4a",
+      "packet": "65101b4a000000000000000000000000000062"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a02580000c5"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a000000009c"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4a000000009c"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4c",
+      "packet": "65101b4c0000000000000000000000000000d5"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4c00000000d7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x4e",
+      "packet": "65101b4e0000000000000000000000000000b8"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4e0000000013"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x50",
+      "packet": "65101b500000000000000000000000000000dd"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa500000000073"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x52",
+      "packet": "65101b520000000000000000000000000000b0"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5200000000b7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x54",
+      "packet": "65101b54000000000000000000000000000007"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5400000000fc"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x56",
+      "packet": "65101b5600000000000000000000000000006a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa560000000038"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x58",
+      "packet": "65101b5800000000000000000000000000006e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa58000000006a"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5a",
+      "packet": "65101b5a000000000000000000000000000003"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5a00000000ae"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5c",
+      "packet": "65101b5c0000000000000000000000000000b4"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5c00000000e5"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x5e",
+      "packet": "65101b5e0000000000000000000000000000d9"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa5e0000000021"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x60",
+      "packet": "65101b6000000000000000000000000000007e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa600000000025"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x7",
+      "packet": "6510180700000000000000000000000000003b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa609d0000008d"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa609d0000008d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x24",
+      "packet": "65101c24000000000000000000000000000029"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1d",
+      "value": "0x0",
+      "packet": "65101d00000000000000000000000000000033"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e240000001b"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x8",
+      "packet": "6510180800000000000000000000000000008a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e240000001b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e240000001b"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e240000001b"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e240000001b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e240000001b"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x40",
+      "packet": "65101b400000000000000000000000000000bc"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000100080aa402400000052"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa4024000000d7"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x0",
+      "packet": "65101c00000000000000000000000000000031"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1d",
+      "value": "0x0",
+      "packet": "65101d00000000000000000000000000000033"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x8",
+      "packet": "6510180800000000000000000000000000008a"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x61",
+      "packet": "65101b610000000000000000000000000000cb"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x0",
+      "packet": "65101c00000000000000000000000000000031"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x6",
+      "packet": "6510180600000000000000000000000000008e"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x3e",
+      "packet": "65101b3e000000000000000000000000000098"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa3e000000008d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x61",
+      "packet": "65101b610000000000000000000000000000cb"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x18",
+      "value": "0x7",
+      "packet": "6510180700000000000000000000000000003b"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "1000000200000000000080aa610000000047"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x19",
+      "value": "0x0",
+      "packet": "6510190000000000000000000000000000003b"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1a",
+      "value": "0x0",
+      "packet": "65101a0000000000000000000000000000003d"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1b",
+      "value": "0x0",
+      "packet": "65101b0000000000000000000000000000003f"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1c",
+      "value": "0x94",
+      "packet": "65101c9400000000000000000000000000008b"
+    },
+    {
+      "op": "volatile_ec_write",
+      "register": "0x1d",
+      "value": "0x10",
+      "packet": "65101d10000000000000000000000000000052"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "100000020000000000000000009410000065"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xf1",
+      "raw": "100000020000000000000000009410000065"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xa2",
+      "raw": "108900f5ff551795106400f5ff4e00c20bd4"
+    },
+    {
+      "op": "read_ec",
+      "command": "0xa3",
+      "raw": "100060e8215517740e000031000000000055"
+    }
+  ],
+  "blocks": [
+    {
+      "subclass": 2,
+      "block": 0,
+      "hex": "025802022602bc02028a00000000000000000000000000000000000000000000",
+      "checksum_received": 47,
+      "checksum_expected": 47,
+      "checksum_valid": true
+    },
+    {
+      "subclass": 32,
+      "block": 0,
+      "hex": "000001f400320000000000000000000000000000000000000000000000000000",
+      "checksum_received": 216,
+      "checksum_expected": 216,
+      "checksum_valid": true
+    },
+    {
+      "subclass": 34,
+      "block": 0,
+      "hex": "00c810fe00320000025800000000000000000000000000000000000000000000",
+      "checksum_received": 157,
+      "checksum_expected": 157,
+      "checksum_valid": true
+    }
+  ],
+  "before": {
+    "0xf1": "00000200000000000000000094100000",
+    "0xf2": "00000000000000000000000000000000",
+    "0xf3": "00000000000000000000000001000000",
+    "0xa2": "8900beff55178f106400beff4e00c30b",
+    "0xa3": "0060e8215517740e0000310000000000"
+  },
+  "control_status_before": "0x28b",
+  "original_gauge_selectors": {
+    "class_block_word": "0x0",
+    "block_data_control": 0
+  },
+  "success": false,
+  "error": "Request selector readback mismatch",
+  "gauge_selectors_restored": true,
+  "after": {
+    "0xf1": "00000200000000000000000094100000",
+    "0xa2": "8900f5ff551795106400f5ff4e00c20b",
+    "0xa3": "0060e8215517740e0000310000000000"
+  },
+  "volatile_registers_restored": true
+}

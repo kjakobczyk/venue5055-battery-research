@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-10-31T15:50:49.617936+00:00",
+  "override_active": true,
+  "oem_revision": 4,
+  "dsdt_checksum_valid": true,
+  "ec": {
+    "transport": "EC proxy; direct BQ27510 not accessed",
+    "ec_address": "0x10",
+    "adapter": "/dev/i2c-0",
+    "crc_verified": true,
+    "raw_blocks": {
+      "0xa2": "108900bbff5517a0106400bbff4e00c00bcd",
+      "0xa3": "100060e8215517740e000031000000000055"
+    },
+    "status_hex": "0x89",
+    "current_signed_mA": -69,
+    "remaining_mAh": 5973,
+    "voltage_mV": 4256,
+    "design_mAh": 8680,
+    "full_mAh": 5973,
+    "design_voltage_mV": 3700,
+    "cycles": 49,
+    "health_percent": 68.81,
+    "wear_percent": 31.19,
+    "nominal_full_Wh": 22.1
+  },
+  "sysfs": {
+    "DEVTYPE": "power_supply",
+    "POWER_SUPPLY_NAME": "BAT0",
+    "POWER_SUPPLY_TYPE": "Battery",
+    "POWER_SUPPLY_STATUS": "Full",
+    "POWER_SUPPLY_PRESENT": "1",
+    "POWER_SUPPLY_TECHNOLOGY": "Li-ion",
+    "POWER_SUPPLY_CYCLE_COUNT": "49",
+    "POWER_SUPPLY_VOLTAGE_MIN_DESIGN": "3700000",
+    "POWER_SUPPLY_VOLTAGE_NOW": "4256000",
+    "POWER_SUPPLY_CURRENT_NOW": "80000",
+    "POWER_SUPPLY_CHARGE_FULL_DESIGN": "8680000",
+    "POWER_SUPPLY_CHARGE_FULL": "5973000",
+    "POWER_SUPPLY_CHARGE_NOW": "5973000",
+    "POWER_SUPPLY_CAPACITY": "100",
+    "POWER_SUPPLY_CAPACITY_LEVEL": "Full",
+    "POWER_SUPPLY_MODEL_NAME": "DELL 0WF2842I",
+    "POWER_SUPPLY_MANUFACTURER": "LGC-LGC3.95"
+  },
+  "voltage_difference_mV": 0.0,
+  "voltage_matches_within_100mV": true,
+  "full_capacity_matches_ec": true,
+  "percentage_in_range": true
+}

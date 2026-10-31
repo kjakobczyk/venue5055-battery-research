@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-10-31T16:02:37.651107+00:00",
+  "method": "single 0x08 selector + two-byte read at 0x55; no other transactions",
+  "results": [
+    {
+      "adapter": "/dev/i2c-0",
+      "acpi": "\\_SB_.I2C1",
+      "address": "0x55",
+      "register": "0x08",
+      "read_length": 2,
+      "errno": 121,
+      "error": "[Errno 121] Remote I/O error"
+    },
+    {
+      "adapter": "/dev/i2c-1",
+      "acpi": "\\_SB_.I2C2",
+      "address": "0x55",
+      "register": "0x08",
+      "read_length": 2,
+      "errno": 121,
+      "error": "[Errno 121] Remote I/O error"
+    },
+    {
+      "adapter": "/dev/i2c-2",
+      "acpi": "\\_SB_.I2C3",
+      "address": "0x55",
+      "register": "0x08",
+      "read_length": 2,
+      "errno": 121,
+      "error": "[Errno 121] Remote I/O error"
+    },
+    {
+      "adapter": "/dev/i2c-3",
+      "acpi": "\\_SB_.I2C4",
+      "address": "0x55",
+      "register": "0x08",
+      "read_length": 2,
+      "errno": 121,
+      "error": "[Errno 121] Remote I/O error"
+    },
+    {
+      "adapter": "/dev/i2c-4",
+      "acpi": "\\_SB_.I2C5",
+      "address": "0x55",
+      "register": "0x08",
+      "read_length": 2,
+      "errno": 121,
+      "error": "[Errno 121] Remote I/O error"
+    }
+  ]
+}

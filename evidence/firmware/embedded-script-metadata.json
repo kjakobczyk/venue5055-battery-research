@@ -1,0 +1,38 @@
+[
+  {
+    "file": "battery-script-0f6a6.txt",
+    "size": 6755,
+    "sha256": "7caf4c7fbc6e5e2d053d209c71f43e0c72af6957b3e7ae927cd9b7cf1135bffd",
+    "lines": 247,
+    "operations": {
+      "W": 162,
+      "C": 41,
+      "X": 44
+    },
+    "write_addresses_8bit": [
+      "0x16",
+      "0xaa"
+    ],
+    "embedded_printable": [
+      "bq27510-G3\""
+    ]
+  },
+  {
+    "file": "battery-script-1110a.txt",
+    "size": 6755,
+    "sha256": "c14af2f34203c73a8b6fdfd46b9628a8615b2d6cff3b6ff0ae174428c1f6f602",
+    "lines": 247,
+    "operations": {
+      "W": 162,
+      "C": 41,
+      "X": 44
+    },
+    "write_addresses_8bit": [
+      "0x16",
+      "0xaa"
+    ],
+    "embedded_printable": [
+      "bq27510-G3"
+    ]
+  }
+]

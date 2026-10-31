@@ -1,0 +1,10 @@
+Title: From ACPI Misreporting to an EC-Mediated Fuel-Gauge Interface: A Dell Venue 10 Pro 5055 Case Study
+Authors: Krzysztof Jakóbczyk
+Affiliation: not supplied; omitted
+ORCID: not supplied; omitted
+Manuscript license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Category: author to select; cs.AR is a candidate for review, not an assigned category
+Comments: Single-device case study; companion evidence and source artifacts; code and evidence: https://github.com/kjakobczyk/venue5055-battery-research; no DOI or arXiv identifier assigned
+
+Abstract:
+Battery health reported by an operating system can conflate firmware defects, stale information, and fuel-gauge model state. We document an owner-authorized investigation of one Dell Venue 10 Pro 5055 running Linux. Starting from inconsistent ACPI telemetry, we identify an incorrect voltage source in the battery status method and validate a six-byte AML override across a reboot. Boardview analysis and unsuccessful direct gauge probes motivate investigation of the embedded controller (EC). Offline extraction of official Dell A04 and A07 update packages yields byte-identical 128-KiB EC images. CR16C analysis connects embedded battery-programming scripts to an internal transaction engine and reveals a host-accessible register interface to that engine. We validate the interface against live gauge measurements and acquire 25 checksum-verified DataFlash blocks. A separately authorized experiment changes only the active profile's stored maximum chemical-capacity parameter, from 7720 to 8794 mAh, followed by one gauge reset. Reported full-charge capacity increases from 5973 to 6827 mAh and reported state of health from 78% to 95%, while the cycle count remains 49 and both profile-0 resistance-table blocks remain byte-identical. These are model-reporting changes, not evidence of electrochemical capacity recovery. We release an auditable evidence structure, offline verification tools, protocol details, and the limitations of this single-subject intervention.

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying research manuscript when using this case study or its artifacts. No DOI or arXiv identifier has been assigned."
+title: "From ACPI Misreporting to an EC-Mediated Fuel-Gauge Interface: A Dell Venue 10 Pro 5055 Case Study"
+url: "https://github.com/kjakobczyk/venue5055-battery-research"
+repository-code: "https://github.com/kjakobczyk/venue5055-battery-research.git"
+type: software
+version: 0.1.0-draft
+authors:
+  - family-names: "Jakóbczyk"
+    given-names: "Krzysztof"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - embedded-controller
+  - battery-fuel-gauge
+  - BQ27510
+  - ACPI
+  - reverse-engineering
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "From ACPI Misreporting to an EC-Mediated Fuel-Gauge Interface: A Dell Venue 10 Pro 5055 Case Study"
+  authors:
+    - family-names: "Jakóbczyk"
+      given-names: "Krzysztof"
+  year: 2026
+  url: "https://github.com/kjakobczyk/venue5055-battery-research/blob/main/paper/main.pdf"

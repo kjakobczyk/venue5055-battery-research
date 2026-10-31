@@ -1,0 +1,11 @@
+{
+  "study_date": "2026-10-31",
+  "python": "3.14.8",
+  "kernel": "7.3.0-9-generic",
+  "matplotlib": "3.10.9+dfsg1",
+  "numpy": "2.4.6",
+  "pdflatex": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026/Debian)",
+  "bibliography": "BibTeX / unsrtnat",
+  "paper_pages": 17,
+  "hardware_operations_during_documentation": false
+}

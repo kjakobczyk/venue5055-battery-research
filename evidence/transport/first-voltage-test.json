@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-10-31T16:38:19.313709+00:00",
+  "purpose": "single read-only BQ27510 Voltage register 0x08 via volatile EC request interface",
+  "events": [
+    {
+      "operation": "read_ec_block",
+      "command": "0xf1",
+      "response": "1000000200000000000000000000000000c9"
+    },
+    {
+      "operation": "read_ec_block",
+      "command": "0xf2",
+      "response": "100000000000000000000000000000000079"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x1a",
+      "value": "0xaa",
+      "packet": "65101aaa000000000000000000000000000020"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x1b",
+      "value": "0x8",
+      "packet": "65101b0800000000000000000000000000008c"
+    },
+    {
+      "operation": "read_ec_block",
+      "command": "0xf1",
+      "response": "1000000200000000000000aa08000000001a"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x18",
+      "value": "0x9",
+      "packet": "6510180900000000000000000000000000003f"
+    },
+    {
+      "operation": "read_ec_block",
+      "command": "0xf1",
+      "response": "1000000200000000000080aa08941000003c"
+    },
+    {
+      "operation": "read_ec_block",
+      "command": "0xf2",
+      "response": "100000000000000000000000000000000079"
+    },
+    {
+      "operation": "read_ec_block",
+      "command": "0xf1",
+      "response": "1000000200000000000080aa08941000003c"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x17",
+      "value": "0x0",
+      "packet": "65101700000000000000000000000000000027"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x1a",
+      "value": "0x0",
+      "packet": "65101a0000000000000000000000000000003d"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x1b",
+      "value": "0x0",
+      "packet": "65101b0000000000000000000000000000003f"
+    },
+    {
+      "operation": "write_volatile_ec_register",
+      "register": "0x19",
+      "value": "0x0",
+      "packet": "6510190000000000000000000000000000003b"
+    },
+    {
+      "operation": "read_ec_block",
+      "command": "0xf1",
+      "response": "100000020000000000000000009410000065"
+    }
+  ],
+  "before": {
+    "f1": "00000200000000000000000000000000",
+    "f2": "00000000000000000000000000000000"
+  },
+  "status": "0x80",
+  "result_data": "00000000000000000000000000000000",
+  "voltage_mV": 0,
+  "success": false,
+  "error": "Implausible voltage; compatibility unconfirmed",
+  "after": "00000200000000000000000094100000",
+  "selectors_restored": true
+}

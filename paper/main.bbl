@@ -1,0 +1,119 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Texas Instruments}(2014)]{ti-trm}
+{Texas Instruments}.
+\newblock \emph{{bq27510-G3 System-Side Impedance Track Fuel Gauge With
+  Integrated LDO: Technical Reference Manual}}, October 2014.
+\newblock URL \url{https://www.ti.com/lit/ug/sluua97/sluua97.pdf}.
+\newblock Sections 2--5; accessed 2026-10-31.
+
+\bibitem[{The Linux Kernel Developers}(2026{\natexlab{a}})]{linux-battery}
+{The Linux Kernel Developers}.
+\newblock \emph{Linux Power Supply Class}, 2026{\natexlab{a}}.
+\newblock URL \url{https://docs.kernel.org/power/power_supply_class.html}.
+\newblock Units and power-supply properties; accessed 2026-10-31.
+
+\bibitem[{LongSoft and UEFITool contributors}(2026)]{uefitool}
+{LongSoft and UEFITool contributors}.
+\newblock {UEFITool and UEFIExtract}, 2026.
+\newblock URL \url{https://github.com/LongSoft/UEFITool}.
+\newblock Used for static UEFI extraction.
+
+\bibitem[Mavropoulos(2025)]{biosutilities}
+Plato Mavropoulos.
+\newblock {BIOSUtilities}: {AMI UCP} update extractor, 2025.
+\newblock URL \url{https://github.com/platomav/BIOSUtilities}.
+\newblock Inspected commit f799425af93264b62a2f3c3cc5bbabf8a2226114; UAF format
+  reference.
+
+\bibitem[{UEFI Firmware Parser contributors}(2026)]{uefi-firmware}
+{UEFI Firmware Parser contributors}.
+\newblock Uefi firmware parser, 2026.
+\newblock URL \url{https://github.com/theopolis/uefi-firmware-parser}.
+\newblock Version 1.16; EFI decompression used offline.
+
+\bibitem[{angr contributors}(2026)]{pypcode}
+{angr contributors}.
+\newblock pypcode: Python bindings to ghidra's sleigh library, 2026.
+\newblock URL \url{https://github.com/angr/pypcode}.
+\newblock Version 4.0.1.
+
+\bibitem[{National Security Agency and Ghidra contributors}(2026)]{ghidra}
+{National Security Agency and Ghidra contributors}.
+\newblock {Ghidra CR16 Processor Definitions}, 2026.
+\newblock URL
+  \url{https://github.com/NationalSecurityAgency/ghidra/tree/master/Ghidra/Processors/CR16}.
+\newblock CR16C instruction semantics inspected through the pypcode
+  distribution.
+
+\bibitem[{The Linux Kernel Developers}(2026{\natexlab{b}})]{linux-i2c}
+{The Linux Kernel Developers}.
+\newblock \emph{Implementing I2C Device Drivers in Userspace},
+  2026{\natexlab{b}}.
+\newblock URL \url{https://docs.kernel.org/i2c/dev-interface.html}.
+\newblock Accessed 2026-10-31.
+
+\bibitem[{The Linux Kernel Developers}(2026{\natexlab{c}})]{linux-acpi}
+{The Linux Kernel Developers}.
+\newblock \emph{Upgrading ACPI Tables via initrd}, 2026{\natexlab{c}}.
+\newblock URL
+  \url{https://docs.kernel.org/admin-guide/acpi/initrd_table_override.html}.
+\newblock Accessed 2026-10-31.
+
+\bibitem[{laszlodaniel and contributors}(2026)]{smartbatteryhack}
+{laszlodaniel and contributors}.
+\newblock Smartbatteryhack, 2026.
+\newblock URL \url{https://github.com/laszlodaniel/SmartBatteryHack}.
+\newblock Inspected commit 8e4da23cf9500fe923304a70b5d5099f693c8ef2; no
+  execution on the target.
+
+\bibitem[{o-gs and contributors}(2026)]{dji}
+{o-gs and contributors}.
+\newblock Dji firmware tools: Smart battery controller utility, 2026.
+\newblock URL
+  \url{https://github.com/o-gs/dji-firmware-tools/blob/master/comm_sbs_bqctrl.py}.
+\newblock Reference inspected for supported chip profiles; not used for target
+  transactions.
+
+\bibitem[{Dell Technologies}(2016)]{dell-a07}
+{Dell Technologies}.
+\newblock Dell venue 10 pro 5055 system bios a07, 2016.
+\newblock URL
+  \url{https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=78d21}.
+\newblock Package 5055A07.EXE; accessed 2026-10-31.
+
+\bibitem[{Dell Technologies}(2015)]{dell-a04}
+{Dell Technologies}.
+\newblock Dell venue 10 pro 5055 system bios a04, 2015.
+\newblock URL
+  \url{https://www.dell.com/support/home/en-ng/drivers/DriversDetails?driverId=Y9PKK}.
+\newblock Package 5055A04.EXE; SHA-256 reported in artifact manifest.
+
+\bibitem[{Dell Technologies}(2026)]{dell-index}
+{Dell Technologies}.
+\newblock Published driver index: Dell venue 10 pro 5055 tablet, 2026.
+\newblock URL
+  \url{https://downloads.dell.com/published/Pages/dell-venue-10-pro-5055-tablet.html}.
+\newblock Used to recover the direct A04 download URL.
+
+\bibitem[Yu et~al.(2022)Yu, Barsukov, and Vega]{ti-theory}
+Ming Yu, Yevgen Barsukov, and Michael Vega.
+\newblock Theory and implementation of impedance track battery fuel-gauging
+  algorithm in bq2750x family.
+\newblock Technical Report SLUA450A, Texas Instruments, 2022.
+\newblock URL \url{https://www.ti.com/lit/an/slua450/slua450.pdf}.
+\newblock Original 2008; revised November 2022.
+
+\bibitem[Herder and Yu(2011)]{ti-learning}
+Charles Herder and Ming Yu.
+\newblock Achieving the successful learning cycle.
+\newblock Technical Report SLUA597, Texas Instruments, May 2011.
+\newblock URL
+  \url{https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/180/1185.slua597.pdf}.
+
+\end{thebibliography}

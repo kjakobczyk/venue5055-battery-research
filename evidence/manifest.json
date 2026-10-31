@@ -1,0 +1,512 @@
+{
+  "study_date": "2026-10-31",
+  "author": "Krzysztof Jakóbczyk",
+  "subject_count": 1,
+  "scope": "battery/ACPI/EC investigation only; no subsequent runtime-capacity validation",
+  "records": [
+    {
+      "source_relative": "readings/battery-20261031-154019.json",
+      "release_relative": "evidence/acpi/initial-reading.json",
+      "source_sha256": "592baa1d26fca9c4b82a919c7e2f88a06424bdf52470c79e455a5b3821f4ce83",
+      "release_sha256": "26c0a9632dbb3b28e506978663bc58ec5e8bd99a7efc39a1f0a5eea7bd55023e",
+      "bytes": 1822,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "readings/battery-20261031-154056.json",
+      "release_relative": "evidence/acpi/second-reading.json",
+      "source_sha256": "0cf368e18f1e176751daf618cd1b0a80c9b6b8ddbf1bf392225646bb4ee04a06",
+      "release_sha256": "7654088193232bea9709db0e9c96cc9bfd9692b5de79a1a4838c04c6c15270e9",
+      "bytes": 1822,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "acpi-fix/patch-proof.json",
+      "release_relative": "evidence/acpi/patch-proof.json",
+      "source_sha256": "319f0e5eb7aa06a329bd08863c0daf8ed5b6bb0bbff3481e54e399e8c51ce467",
+      "release_sha256": "35b827948617b09f9c1d2439890eaf462b000167fabbd541fdefbf2374020e3f",
+      "bytes": 420,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "acpi-fix/verification-20261031-155050.json",
+      "release_relative": "evidence/acpi/post-boot-verification.json",
+      "source_sha256": "2ae8eaeb12e97e6771cb2feaf00a1a98165285bc03d36fe69e455a7b9e55f3ff",
+      "release_sha256": "b0735e02959418049fa741f464f7b1e4aff811037dece97ca5c5c976aef67581",
+      "bytes": 1554,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "access-audit/targeted-probe-20261031-160237.json",
+      "release_relative": "evidence/transport/direct-gauge-probes.json",
+      "source_sha256": "18c0a48afee72d563737c07db94c48eb3c39ee5315a6274dcd73139fb4d6ae56",
+      "release_sha256": "18c0a48afee72d563737c07db94c48eb3c39ee5315a6274dcd73139fb4d6ae56",
+      "bytes": 1226,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "boardview/battery-routing.json",
+      "release_relative": "evidence/topology/derived-routing.json",
+      "source_sha256": "2deb381cce527835ea69062952235b75ddd3975461e5c312c0c5b328a3e37f37",
+      "release_sha256": "9a7bf518afecf25cd209e7cc765bb9a994bfee28ef3805dd6a2bac201c274e5b",
+      "bytes": 4780,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/A04-provenance.json",
+      "release_relative": "evidence/firmware/A04-provenance.json",
+      "source_sha256": "73a9717f2f68239d2fb02623a294d3554a2a4bf1e835805b7ad1ba9df3981cb6",
+      "release_sha256": "73a9717f2f68239d2fb02623a294d3554a2a4bf1e835805b7ad1ba9df3981cb6",
+      "bytes": 204,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/A07-provenance.json",
+      "release_relative": "evidence/firmware/A07-provenance.json",
+      "source_sha256": "f555cdbb81018def4d018fae0d59ea47db153b3afd3c6099cd48be2ed0eb585b",
+      "release_sha256": "a32b4fc51a93696d3223e2768a4adcc63c3e3ed699fd290ec08a1e85fbeb6867",
+      "bytes": 204,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/A04-images/manifest.json",
+      "release_relative": "evidence/firmware/A04-components.json",
+      "source_sha256": "a2dc3cdb028b47f7bb8a7ddbd9cfab00938088c195e34814c8bc49901ccb5dfa",
+      "release_sha256": "a2dc3cdb028b47f7bb8a7ddbd9cfab00938088c195e34814c8bc49901ccb5dfa",
+      "bytes": 1283,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/A07-images/manifest.json",
+      "release_relative": "evidence/firmware/A07-components.json",
+      "source_sha256": "1ddffbd994211da1c3d68e42777c1baf8a0ffe7008640a8b86480a36f8703b2f",
+      "release_sha256": "1ddffbd994211da1c3d68e42777c1baf8a0ffe7008640a8b86480a36f8703b2f",
+      "bytes": 1283,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/A04-A07-EC-comparison.json",
+      "release_relative": "evidence/firmware/EC-comparison.json",
+      "source_sha256": "26a010a876af389665fed3eaa7a6e83fd2e2aed857de4356dfc11b3a397baa9e",
+      "release_sha256": "26a010a876af389665fed3eaa7a6e83fd2e2aed857de4356dfc11b3a397baa9e",
+      "bytes": 215,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/A07-images/battery-scripts-summary.json",
+      "release_relative": "evidence/firmware/embedded-script-metadata.json",
+      "source_sha256": "744588c1629343a99edf1bdc5fa247a72d6b958b55d4030aa6c8194d7fa22a5f",
+      "release_sha256": "744588c1629343a99edf1bdc5fa247a72d6b958b55d4030aa6c8194d7fa22a5f",
+      "bytes": 717,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/EC-host-register-dispatch.json",
+      "release_relative": "evidence/firmware/host-dispatch-map.json",
+      "source_sha256": "bd209d63e309697b9ff3454704e90b1c457a8f0138009b3e7921ae1f553aa0d9",
+      "release_sha256": "bd209d63e309697b9ff3454704e90b1c457a8f0138009b3e7921ae1f553aa0d9",
+      "bytes": 564,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/wmi-command-map.json",
+      "release_relative": "evidence/firmware/initial-wmi-map.json",
+      "source_sha256": "6d5af6cb55d5ce3d2ff9bab37a2407870f456774f3afeccb8350cc8e90312c1f",
+      "release_sha256": "031bef1a125e594349d69759a2078a091f1f29f81c3c868def7328c4e2e31c9e",
+      "bytes": 1846,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/EC-host-registers-readonly.json",
+      "release_relative": "evidence/transport/host-register-probe.json",
+      "source_sha256": "4cf29567cb6daaff76206d3679b3f3f26618e29d022e9e1bb9e11e7d4f036add",
+      "release_sha256": "4cf29567cb6daaff76206d3679b3f3f26618e29d022e9e1bb9e11e7d4f036add",
+      "bytes": 579,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/voltage-bridge-test-20261031-163819.json",
+      "release_relative": "evidence/transport/first-voltage-test.json",
+      "source_sha256": "947d9f6c75fd0b75aec923064a1e78e157b5b686a7fe015f849519cb85a8e272",
+      "release_sha256": "947d9f6c75fd0b75aec923064a1e78e157b5b686a7fe015f849519cb85a8e272",
+      "bytes": 2783,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/voltage-bridge-test-interpretation.json",
+      "release_relative": "evidence/transport/first-voltage-correction.json",
+      "source_sha256": "fa67eca0dbc97fe88abdfae5ac57e3e1725fad3a45fff55dd5b76b560be1c38b",
+      "release_sha256": "fa67eca0dbc97fe88abdfae5ac57e3e1725fad3a45fff55dd5b76b560be1c38b",
+      "bytes": 209,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/bq-readonly-via-ec-20261031-163955.json",
+      "release_relative": "evidence/gauge/initial-direct-diagnostics.json",
+      "source_sha256": "10d90a3e9d3e26e1d675d5c9bdcc11d4a4c4b898c6f1367a445ba8217e1726c9",
+      "release_sha256": "10d90a3e9d3e26e1d675d5c9bdcc11d4a4c4b898c6f1367a445ba8217e1726c9",
+      "bytes": 26727,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/bq-readonly-via-ec-20261031-203023.json",
+      "release_relative": "evidence/gauge/pre-intervention-diagnostics.json",
+      "source_sha256": "fe31c8b9de89ed34149408c89eaa146b7b8cbd4a6ccb9fae48e5ae2aed1ff448",
+      "release_sha256": "fe31c8b9de89ed34149408c89eaa146b7b8cbd4a6ccb9fae48e5ae2aed1ff448",
+      "bytes": 26727,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/dataflash-extended-20261031-170411/report.json",
+      "release_relative": "evidence/dataflash/first-session.json",
+      "source_sha256": "27509f505554848a22b7b79b68724bafb45300e63f1d2fb2034912520c693aa5",
+      "release_sha256": "27509f505554848a22b7b79b68724bafb45300e63f1d2fb2034912520c693aa5",
+      "bytes": 70790,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/dataflash-extended-20261031-170608/report.json",
+      "release_relative": "evidence/dataflash/completed-session.json",
+      "source_sha256": "3e455e9910d5adb16132963da7faa5693306b20693476748f812d5822955d430",
+      "release_sha256": "3e455e9910d5adb16132963da7faa5693306b20693476748f812d5822955d430",
+      "bytes": 419184,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/decoded-readings.json",
+      "release_relative": "evidence/dataflash/decoded-readings.json",
+      "source_sha256": "5a1edc91ed2fabb9ae7c89cdc9163a7c68f8b4eec5ab821bdb1ab15acae5b039",
+      "release_sha256": "625ce7c075e107434c92cc645bde3618c912526454e68b35161aad743a235ade",
+      "bytes": 8079,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/report.json",
+      "release_relative": "evidence/intervention/report.json",
+      "source_sha256": "10b378ab5160e42269c407b8a861b29bf1b225b1dba93a96d16f73a78288a3d2",
+      "release_sha256": "8710b69c85b1d046b33ce907628512543832423e66190441dad5798e04c7a32b",
+      "bytes": 199994,
+      "transform": "path normalization and removal of sysfs serial-number key"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-104-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-104-block-0.bin",
+      "source_sha256": "4a761294599ec2db7ecb8d83a5599241e37f23b55c2e689f78d6ef8d66892216",
+      "release_sha256": "4a761294599ec2db7ecb8d83a5599241e37f23b55c2e689f78d6ef8d66892216",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-106-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-106-block-0.bin",
+      "source_sha256": "7c90dec5f984b8153532120614e8d66fc22b6a4a18336aec36fbb361c362ab93",
+      "release_sha256": "7c90dec5f984b8153532120614e8d66fc22b6a4a18336aec36fbb361c362ab93",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-106-block-1.bin",
+      "release_relative": "evidence/dataflash/blocks/class-106-block-1.bin",
+      "source_sha256": "32718be1c5bd693e130348a131d3b2fe1d60f4f0aabbbaba5dd8685447db0948",
+      "release_sha256": "32718be1c5bd693e130348a131d3b2fe1d60f4f0aabbbaba5dd8685447db0948",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-107-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-107-block-0.bin",
+      "source_sha256": "749ce1d51e1c1c43cfe4c6214c9af84734afc85ed976dd08b9a80ce80dab5516",
+      "release_sha256": "749ce1d51e1c1c43cfe4c6214c9af84734afc85ed976dd08b9a80ce80dab5516",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-2-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-2-block-0.bin",
+      "source_sha256": "3763a6fcb9c4042a5536fe694826f8c23131620e5e05ade0fab49a346b9c96d1",
+      "release_sha256": "3763a6fcb9c4042a5536fe694826f8c23131620e5e05ade0fab49a346b9c96d1",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-32-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-32-block-0.bin",
+      "source_sha256": "2603a3b611694a03acc58ef6757a555e4248d3050ed78f7385985ff1b96354fa",
+      "release_sha256": "2603a3b611694a03acc58ef6757a555e4248d3050ed78f7385985ff1b96354fa",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-34-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-34-block-0.bin",
+      "source_sha256": "7c04dcc47cf2ac984b32a41c96ff7b996c330eabc654620ac7a6281f03491d47",
+      "release_sha256": "7c04dcc47cf2ac984b32a41c96ff7b996c330eabc654620ac7a6281f03491d47",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-36-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-36-block-0.bin",
+      "source_sha256": "e42e5af59585d7d0f2750b1f7691bfaa2d7bdef9c74802388bdb9562b6d5c68c",
+      "release_sha256": "e42e5af59585d7d0f2750b1f7691bfaa2d7bdef9c74802388bdb9562b6d5c68c",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-48-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-48-block-0.bin",
+      "source_sha256": "0b9fc4d2394bff7373b6543ee6cdb85963a51c435b45077d6cbecc807a42acac",
+      "release_sha256": "0b9fc4d2394bff7373b6543ee6cdb85963a51c435b45077d6cbecc807a42acac",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-49-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-49-block-0.bin",
+      "source_sha256": "32e10b628350d5e3a912578e2d3c1d303035861ecb6b7c17bae2b4eb34614463",
+      "release_sha256": "32e10b628350d5e3a912578e2d3c1d303035861ecb6b7c17bae2b4eb34614463",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-64-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-64-block-0.bin",
+      "source_sha256": "de8211f08944bb1a7c2e6f3d276459590a6bde1b91cd7fecc0962b56d7c30a7a",
+      "release_sha256": "de8211f08944bb1a7c2e6f3d276459590a6bde1b91cd7fecc0962b56d7c30a7a",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-68-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-68-block-0.bin",
+      "source_sha256": "c6cbe89324e42f6b2c74e75d93a97824a165d88d5477f073de314f0255aa1108",
+      "release_sha256": "c6cbe89324e42f6b2c74e75d93a97824a165d88d5477f073de314f0255aa1108",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-80-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-80-block-0.bin",
+      "source_sha256": "20a9b31e65b600a341f5fdd37fc7452b5b212292c1615ce4a1c1066b23e57c6b",
+      "release_sha256": "20a9b31e65b600a341f5fdd37fc7452b5b212292c1615ce4a1c1066b23e57c6b",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-80-block-1.bin",
+      "release_relative": "evidence/dataflash/blocks/class-80-block-1.bin",
+      "source_sha256": "764c787fcb7efb54d5923a89335af33a9eac06c699012ef171b4aa2a6682a8ac",
+      "release_sha256": "764c787fcb7efb54d5923a89335af33a9eac06c699012ef171b4aa2a6682a8ac",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-80-block-2.bin",
+      "release_relative": "evidence/dataflash/blocks/class-80-block-2.bin",
+      "source_sha256": "686f4e55d0efd410a360fe5c4edaa7e5a087ea2147b4b3c7928dffaa8e54191b",
+      "release_sha256": "686f4e55d0efd410a360fe5c4edaa7e5a087ea2147b4b3c7928dffaa8e54191b",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-81-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-81-block-0.bin",
+      "source_sha256": "d07fa57bf1d44e92abd385b27d140b4202f0ef4d257fd2edc1b47a4846924d36",
+      "release_sha256": "d07fa57bf1d44e92abd385b27d140b4202f0ef4d257fd2edc1b47a4846924d36",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-82-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-82-block-0.bin",
+      "source_sha256": "c0978bc03b3c37e859c06d5265526fcbf3360ce5628339d08a908e4ecdcdff02",
+      "release_sha256": "c0978bc03b3c37e859c06d5265526fcbf3360ce5628339d08a908e4ecdcdff02",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-83-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-83-block-0.bin",
+      "source_sha256": "56a9672384ffdd4f0ab48876cbe0538891524b7e979a467576be367db1dd7093",
+      "release_sha256": "56a9672384ffdd4f0ab48876cbe0538891524b7e979a467576be367db1dd7093",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-84-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-84-block-0.bin",
+      "source_sha256": "56a9672384ffdd4f0ab48876cbe0538891524b7e979a467576be367db1dd7093",
+      "release_sha256": "56a9672384ffdd4f0ab48876cbe0538891524b7e979a467576be367db1dd7093",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-87-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-87-block-0.bin",
+      "source_sha256": "df6c09d9a1a2e719a2528e37665bcd2c7b5586794f48a13beb3363cef16643f3",
+      "release_sha256": "df6c09d9a1a2e719a2528e37665bcd2c7b5586794f48a13beb3363cef16643f3",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-88-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-88-block-0.bin",
+      "source_sha256": "df6c09d9a1a2e719a2528e37665bcd2c7b5586794f48a13beb3363cef16643f3",
+      "release_sha256": "df6c09d9a1a2e719a2528e37665bcd2c7b5586794f48a13beb3363cef16643f3",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-91-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-91-block-0.bin",
+      "source_sha256": "818abf8d90735e6de8f72f804b49f7a0f5ab47ce28f5557f1fcb0e5b6dbe34c2",
+      "release_sha256": "818abf8d90735e6de8f72f804b49f7a0f5ab47ce28f5557f1fcb0e5b6dbe34c2",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-92-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-92-block-0.bin",
+      "source_sha256": "3aa86f7f0fd0c169e14debfe462bad2b4efcc66e5813c9aaf5fde394b6c3a2d7",
+      "release_sha256": "3aa86f7f0fd0c169e14debfe462bad2b4efcc66e5813c9aaf5fde394b6c3a2d7",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-93-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-93-block-0.bin",
+      "source_sha256": "68808698d72dada4f0eb2b1f5539a9a60003ed6f3e488db5eb7e0e33a4311547",
+      "release_sha256": "68808698d72dada4f0eb2b1f5539a9a60003ed6f3e488db5eb7e0e33a4311547",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/capacity-reset-plan/backup/class-94-block-0.bin",
+      "release_relative": "evidence/dataflash/blocks/class-94-block-0.bin",
+      "source_sha256": "3aa86f7f0fd0c169e14debfe462bad2b4efcc66e5813c9aaf5fde394b6c3a2d7",
+      "release_sha256": "3aa86f7f0fd0c169e14debfe462bad2b4efcc66e5813c9aaf5fde394b6c3a2d7",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/after-class-82.bin",
+      "release_relative": "evidence/intervention/after-class-82.bin",
+      "source_sha256": "be833b984585e5e89a6700cfde6fa260ec06e12d595524ab6e91f21da1828fd3",
+      "release_sha256": "be833b984585e5e89a6700cfde6fa260ec06e12d595524ab6e91f21da1828fd3",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/after-class-91.bin",
+      "release_relative": "evidence/intervention/after-class-91.bin",
+      "source_sha256": "818abf8d90735e6de8f72f804b49f7a0f5ab47ce28f5557f1fcb0e5b6dbe34c2",
+      "release_sha256": "818abf8d90735e6de8f72f804b49f7a0f5ab47ce28f5557f1fcb0e5b6dbe34c2",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/after-class-93.bin",
+      "release_relative": "evidence/intervention/after-class-93.bin",
+      "source_sha256": "68808698d72dada4f0eb2b1f5539a9a60003ed6f3e488db5eb7e0e33a4311547",
+      "release_sha256": "68808698d72dada4f0eb2b1f5539a9a60003ed6f3e488db5eb7e0e33a4311547",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/before-class-82.bin",
+      "release_relative": "evidence/intervention/before-class-82.bin",
+      "source_sha256": "c0978bc03b3c37e859c06d5265526fcbf3360ce5628339d08a908e4ecdcdff02",
+      "release_sha256": "c0978bc03b3c37e859c06d5265526fcbf3360ce5628339d08a908e4ecdcdff02",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/before-class-83.bin",
+      "release_relative": "evidence/intervention/before-class-83.bin",
+      "source_sha256": "56a9672384ffdd4f0ab48876cbe0538891524b7e979a467576be367db1dd7093",
+      "release_sha256": "56a9672384ffdd4f0ab48876cbe0538891524b7e979a467576be367db1dd7093",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/before-class-91.bin",
+      "release_relative": "evidence/intervention/before-class-91.bin",
+      "source_sha256": "818abf8d90735e6de8f72f804b49f7a0f5ab47ce28f5557f1fcb0e5b6dbe34c2",
+      "release_sha256": "818abf8d90735e6de8f72f804b49f7a0f5ab47ce28f5557f1fcb0e5b6dbe34c2",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/qmax-test-20261031-203605/before-class-93.bin",
+      "release_relative": "evidence/intervention/before-class-93.bin",
+      "source_sha256": "68808698d72dada4f0eb2b1f5539a9a60003ed6f3e488db5eb7e0e33a4311547",
+      "release_sha256": "68808698d72dada4f0eb2b1f5539a9a60003ed6f3e488db5eb7e0e33a4311547",
+      "bytes": 32,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "venue5055_readonly.c",
+      "release_relative": "tools/hardware/read_ec_battery_blocks.c",
+      "source_sha256": "570861c45816d9776bdd62b82fe6025f2a04f0f3586c0fdfd12b2c11664a1b1a",
+      "release_sha256": "570861c45816d9776bdd62b82fe6025f2a04f0f3586c0fdfd12b2c11664a1b1a",
+      "bytes": 3515,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/read_bq_via_ec.py",
+      "release_relative": "tools/hardware/read_bq_via_ec.py",
+      "source_sha256": "98a842f2a079f7a7234f3764d0f6a7590ab74ab0049d2663f9788c3a10f52a04",
+      "release_sha256": "98a842f2a079f7a7234f3764d0f6a7590ab74ab0049d2663f9788c3a10f52a04",
+      "bytes": 5853,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/backup_bq_extended_readonly.py",
+      "release_relative": "tools/hardware/backup_bq_extended_readonly.py",
+      "source_sha256": "58f8bea2f07ddcb99a91384a8837d751f03000a2743d94b25acff90897e711a4",
+      "release_sha256": "58f8bea2f07ddcb99a91384a8837d751f03000a2743d94b25acff90897e711a4",
+      "bytes": 5085,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/apply_qmax_test.py",
+      "release_relative": "tools/hardware/apply_qmax_test.py",
+      "source_sha256": "853a821ca86f6bd110b41aff3752e80d166f6c00c1d836984b02e1a8d089e9a5",
+      "release_sha256": "853a821ca86f6bd110b41aff3752e80d166f6c00c1d836984b02e1a8d089e9a5",
+      "bytes": 9180,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "boardview/analyze_boardview.py",
+      "release_relative": "tools/analysis/analyze_boardview_historical.py",
+      "source_sha256": "fc431dbdcfe199ba19b9a56e2fc7b7bb00b2c3db29394635ac80fa0a93fcec84",
+      "release_sha256": "fc431dbdcfe199ba19b9a56e2fc7b7bb00b2c3db29394635ac80fa0a93fcec84",
+      "bytes": 2222,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/trace_ec_callers.py",
+      "release_relative": "tools/analysis/trace_ec_callers_historical.py",
+      "source_sha256": "fd33ec069fb89bf02090ef1fe23036415106991e359d74b33a208ca32f11c7c6",
+      "release_sha256": "fd33ec069fb89bf02090ef1fe23036415106991e359d74b33a208ca32f11c7c6",
+      "bytes": 1386,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/trace_host_interface.py",
+      "release_relative": "tools/analysis/trace_host_interface_historical.py",
+      "source_sha256": "82ebbbd612b350abea015b22e318a01f5faff3ed1e58f589eb1f7cb99629715f",
+      "release_sha256": "82ebbbd612b350abea015b22e318a01f5faff3ed1e58f589eb1f7cb99629715f",
+      "bytes": 976,
+      "transform": "byte-exact"
+    },
+    {
+      "source_relative": "ec-firmware/analyze_reset_readings.py",
+      "release_relative": "tools/analysis/analyze_reset_readings_historical.py",
+      "source_sha256": "8956c4bc8b48faa8efabd29a6be6cd42300fd14211b2506353ce67ff8e5d677f",
+      "release_sha256": "8956c4bc8b48faa8efabd29a6be6cd42300fd14211b2506353ce67ff8e5d677f",
+      "bytes": 3576,
+      "transform": "byte-exact"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Offline evidence verification needs no third-party packages.
+# Install only the components needed for a particular optional task.
+matplotlib>=3.10.7,<4
+uefi_firmware==1.16
+pypcode==4.0.1
